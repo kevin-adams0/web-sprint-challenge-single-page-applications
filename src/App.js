@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import {Route, Switch} from 'react-router-dom';
 import Form from './components/Form';
 import Home from './components/Home';
-import * as yup from 'yup'
+import * as yup from 'yup';
 import formSchema from './formSchema.js'
 import axios from 'axios'
 
